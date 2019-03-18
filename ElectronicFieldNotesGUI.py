@@ -2998,6 +2998,7 @@ Note: The FlowTracker2 date and time is stored as UTC along with an offset for l
                 cfgfile.close()
         
         else:
+            
             try:
                 cfgfile = open(self.inipath, 'w')
                 config = SafeConfigParser()
