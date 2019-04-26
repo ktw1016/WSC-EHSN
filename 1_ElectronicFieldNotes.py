@@ -641,13 +641,11 @@ class ElectronicHydrometricSurveyNotes:
         MidsecMeas = EHSN.find('MidsecMeas')
         self.MidsecMeasFromXML(MidsecMeas)
 
-
-
     #Read xml file and place each val into text fields in eHSN
     def OpenFile(self, filePath):
         if mode == "DEBUG":
             print "Opening File"
-
+        
         try:
             EHSN = ElementTree.parse(filePath).getroot()
             XML_version = EHSN.get('version') #get the eHSN version used to create the XML file
@@ -1429,7 +1427,7 @@ class ElectronicHydrometricSurveyNotes:
 
 
 
-# This is for the icon
+# This is for the icon 
 filename = 'myfilesname.type'
 if hasattr(sys, '_MEIPASS'):
     # PyInstaller >= 1.6

@@ -427,7 +427,7 @@ Note: The FlowTracker2 date and time is stored as UTC along with an offset for l
 
         self.CreateStatusBar(style=wx.STB_SIZEGRIP|wx.STB_SHOW_TIPS|wx.STB_ELLIPSIZE_END|wx.FULL_REPAINT_ON_RESIZE)
         self.SetStatusText("Backup located in " + self.tempPath)
-
+        
         fileMenu = wx.Menu()
         fnew = fileMenu.Append(ID_FILE_NEW, self.fNewLabel, self.fNewDesc)
         fopen = fileMenu.Append(ID_FILE_OPEN, self.fOpenLabel, self.fOpenDesc)
@@ -2998,7 +2998,6 @@ Note: The FlowTracker2 date and time is stored as UTC along with an offset for l
                 cfgfile.close()
         
         else:
-            
             try:
                 cfgfile = open(self.inipath, 'w')
                 config = SafeConfigParser()

@@ -5,8 +5,8 @@
 		<enteredInHWS>False</enteredInHWS>
 	</TitleHeader>
 	<GenInfo>
-		<station number="02KF015">GRAHAM CREEK AT NEPEAN</station>
-		<date timezone="EST">2019/03/12</date>
+		<station number=""/>
+		<date timezone="">2019/04/15</date>
 	</GenInfo>
 	<StageMeas>
 		<HgCkbox>False</HgCkbox>
@@ -98,8 +98,8 @@
 		<orificePurged>False</orificePurged>
 		<downloadedProgram>False</downloadedProgram>
 		<downloadedData>False</downloadedData>
-		<dataPeriodStart>2019/03/12</dataPeriodStart>
-		<dataPeriodEnd>2019/03/12</dataPeriodEnd>
+		<dataPeriodStart>2019/04/15</dataPeriodStart>
+		<dataPeriodEnd>2019/04/15</dataPeriodEnd>
 		<stationHealthRemark/>
 	</EnvCond>
 	<MeasResults empty="True">
@@ -372,6 +372,7 @@
 			</FieldReviewTableRow>
 		</FieldReviewTable>
 		<siteNotes/>
+		<planNotes/>
 	</FieldReview>
 	<MovingBoatMeas empty="True">
 		<bedMaterial/>
