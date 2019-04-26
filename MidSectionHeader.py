@@ -1303,7 +1303,7 @@ class MidSectionHeader(wx.Panel):
             k=2
             uncertainty95 = uncertainty68*k
             worksheet.write(9,32,str(round(uncertainty95*100,1))+"%",bold)
-            expandedUNC2 = str(round(uncertainty68*100,1))+"%"
+            expandedUNC2 = str(round(uncertainty95*100,1))+"%"
             
             summary.append(str(uncertainty95*100))
 
